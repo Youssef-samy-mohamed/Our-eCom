@@ -1,50 +1,39 @@
-# React + TypeScript + Vite
+🧩 Project Overview
+This is a modern web application built with Vite, React, and TypeScript. It leverages powerful tools and best practices to ensure scalability, maintainability, and great developer experience. The app is structured with reusable components and hooks, providing clean and efficient code throughout the project.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+⚙️ Tech Stack
+⚡ Vite – Ultra-fast bundler and dev server
 
-Currently, two official plugins are available:
+⚛️ React – Core library for building the UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📘 TypeScript – Static typing for better development experience
 
-## Expanding the ESLint configuration
+🔄 Redux Toolkit – Efficient and scalable state management
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+🌐 App Router – For seamless client-side routing
 
-- Configure the top-level `parserOptions` property like this:
+🔒 Authentication – Secure login and registration flow
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+📝 React Hook Form – Simplified form management with validation
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+🧱 Skeleton Loaders – Improved UX during async data fetching
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+🔁 Reusable Components & Hooks – DRY and maintainable codebase
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+-------------------------------------------------------------------------------------------------------------
+
+
+🚀 Features
+🔥 Fast and optimized using Vite
+
+🔧 Clean and scalable with reusable components & hooks
+
+🧠 Smart form handling with validation
+
+📦 Centralized state management using Redux Toolkit
+
+⏳ Skeletons for better loading UX
+
+🔐 Secure authentication and protected routes
+
+💡 Type-safe codebase using TypeScript
